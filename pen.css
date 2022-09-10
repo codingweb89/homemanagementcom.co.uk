@@ -1,0 +1,144 @@
+body{
+    background-color: black;
+    color: white;
+
+}
+div, .first-class, .second-class {
+    text-decoration: none;
+    position: fixed;
+    color: black;
+    background-color: white;
+    padding: 2px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-top: -15px;
+}
+.second-class {
+    margin-left: 1000px;
+}
+.first-class {
+    margin-left: -2px;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-right: -5px;
+    margin-left: 0px;
+}
+.image{
+    width: 950px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: -19px;
+}
+h2{
+    margin-left: 15px;
+    text-transform: none;
+}
+.images {
+    margin-left: 15px;
+}
+.book{
+    width: 330px;
+    border-radius: 3px;
+}
+.float{
+    margin-left: 350px;
+    margin-top: -208px;
+}
+.care{
+    margin-top: 50px;
+}
+.support{
+    height: 20px;
+    border-radius: 5px;
+}
+.learn{
+    margin-top: 50px;
+}
+.learn a{
+    color: blue;
+    text-decoration: none;
+}
+.learn a:hover{
+    text-decoration: underline;
+    color: lightblue;
+}
+.terms{
+    text-align: right;
+    margin-top: -30px;
+}
+.terms a{
+    text-decoration: none;
+    color: blue;
+}
+.terms a:hover{
+    text-decoration: underline;
+    color: lightblue;
+}
+.a-link {
+    color: blue;
+    text-decoration: none;
+}
+.a-link:hover {
+    text-decoration: underline;
+    color: lightblue;
+}
+.moist {
+    font-weight: bolder;
+}
+.steps {
+    text-align: center;
+}
+.listing {
+    margin-top: 5px;
+}
+.penhole {
+    width: 300px;
+    height: 170px;
+    border-radius: 3px;
+}
+.span {
+   margin-top: -180px;
+   margin-left: 310px;
+}
+.span-1 {
+    margin-left: 285px;
+}
+.moisture {
+    border: 2px solid white;
+    height: 300px;
+    width: 980px;
+    text-align: center;
+    background-image: url(images/istockphoto-1288992681-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    border-radius: 1px;
+}
+.tissues {
+    text-align: center;
+    margin-top: -50px;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.moisture1 {
+    background-image: url(images/istockphoto-1159994596-612x612.jpg);
+    height: 400px;
+}
+.moisture2 {
+    background-image: url(images/istockphoto-1146279115-612x612.jpg);
+}
+.moisture3 {
+    background-image: url(images/istockphoto-1174952740-612x612.jpg);
+}
+.moisture4 {
+    background-image: url(images/istockphoto-1310961723-612x612.jpg);
+}

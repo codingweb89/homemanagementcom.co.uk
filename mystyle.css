@@ -1,0 +1,192 @@
+html {
+    background-image: url(images/0001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100%;
+}
+
+.parent {
+   padding: 0px;
+   margin: 0px;
+   margin-top: -3px;
+}
+.parent li {
+    display: inline;
+    position: fixed;
+}
+.second-child {
+    margin-left: 1005px;
+    text-transform: uppercase;
+}
+.first-child {
+    color: red;
+    text-decoration: none;
+    background-color: black;
+    padding: 3px;
+    border-radius: 3px;
+}
+.first-child:hover {
+    background-color: black;
+    color: white;
+}
+.first-child:focus {
+    background-color: black;
+    color: white;
+}
+.house-mana {
+    text-align: center;
+    margin-top: auto;
+    background-color: black;
+    color: red;
+    width: 310px;
+    margin-left: 400px;
+    padding-left: -100px;
+    padding-right: -80px;
+    border-radius: 10px;
+}
+.parent-1 {
+    margin: 0px;
+    padding: 0px;
+}
+.first-mum:hover {
+    text-decoration: underline;
+}
+.parent-1 li {
+    padding-bottom: 40px;
+}
+.first-mum {
+    color: blue;
+    text-decoration: none;
+    font-weight: 500;
+}
+.first-div {
+    border: 4px solid black;
+    height: 180px;
+    width: 300px;
+    margin-top: -290px;
+    margin-left: 25em;
+    background-image: url(images/0002.jpg);
+}
+.second-div {
+    border: 4px solid black;
+    height: 180px;
+    width: 300px;
+    margin-top: -187px;
+    margin-left: 47em;
+    background-image: url(images/0002.jpg);
+}
+.first-div, .box-model {
+    text-decoration: none;
+    color: black;
+}
+.appmanager {
+    color: red;
+}
+.any-image {
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    margin-right: 6.9px;
+}
+.book-1 {
+    text-align: center;
+}
+.box-model, .second-div, .hell-div {
+    text-decoration: none;
+}
+.focus-1 {
+    color: blue;
+    text-decoration: none;
+}
+.focus-1:hover {
+    text-decoration: underline;
+}
+.phone1, .phone2 {
+    text-align: right;
+    margin-top: -35px;
+    margin-right: 15px;
+}
+.mouse1, .mouse2 {
+    text-align: right;
+    margin-right: 105px;
+    margin-top: -35px;
+}
+.mirrow1, .mirrow2 {
+    text-align: center;
+    margin-top: -28px;
+    margin-right: 111px;
+}
+.mouth, .cord-wire {
+    float: left;
+    margin-right: 30px;
+    margin-left: 35px;
+    margin-top: -1px;
+}
+.kettle1, .kettle {
+    float: left;
+    margin-top: 0px;
+}
+.key1, .key2 {
+    margin-top: -1px;
+}
+
+
+
+.instagram {
+    width: 100px;
+}
+.facebook {
+    width: 45px;
+    margin-left: 22px;
+    margin-top: 9px;
+    border-radius: 10px;
+}
+.twitter {
+    width: 45px;
+    margin-left: -10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+.blank-1 {
+    color: blue;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.blank-1:hover {
+    text-decoration: underline;
+}
+.browse {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+.browse, .browse-1 {
+    width: 1000px;
+    height: 290px;
+    border-radius: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+}
+.browse, .browse-2 {
+    width: 970px;
+    height: 290px;
+    border-radius: 1px;
+}
+.select {
+    border: 5px solid grey;
+    border-radius: 1px;
+    box-sizing: border-box;
+}
+.footer {
+    text-align: center;
+}
+.any-image, .pillow-image {
+    margin-right: 20px;
+}
+
