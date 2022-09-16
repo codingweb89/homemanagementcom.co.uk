@@ -40,7 +40,7 @@ html {
     background-color: black;
     color: red;
     width: 310px;
-    margin-left: 400px;
+    margin-left: 160px;
     padding-left: -100px;
     padding-right: -80px;
     border-radius: 10px;
@@ -60,35 +60,12 @@ html {
     text-decoration: none;
     font-weight: 500;
 }
-.first-div {
-    border: 4px solid black;
-    height: 180px;
-    width: 300px;
-    margin-top: -290px;
-    margin-left: 25em;
-    background-image: url(images/0002.jpg);
-}
-.second-div {
-    border: 4px solid black;
-    height: 180px;
-    width: 300px;
-    margin-top: -187px;
-    margin-left: 47em;
-    background-image: url(images/0002.jpg);
-}
-.first-div, .box-model {
-    text-decoration: none;
-    color: black;
-}
+
+
 .appmanager {
     color: red;
 }
-.any-image {
-    width: 150px;
-    height: 100px;
-    border: 1px solid black;
-    margin-right: 6.9px;
-}
+
 .book-1 {
     text-align: center;
 }
@@ -163,20 +140,22 @@ html {
 .browse {
     display: flex;
     justify-content: center;
-    border: 1px solid black;
 }
 .browse, .browse-1 {
-    width: 1000px;
+    width: 80%;
     height: 290px;
     border-radius: 1px;
     margin-right: auto;
     margin-left: auto;
     cursor: pointer;
+    overflow: hidden;
 }
 .browse, .browse-2 {
-    width: 970px;
+    width: 80%;
     height: 290px;
     border-radius: 1px;
+    overflow: hidden;
+
 }
 .select {
     border: 5px solid grey;
@@ -186,7 +165,43 @@ html {
 .footer {
     text-align: center;
 }
-.any-image, .pillow-image {
-    margin-right: 20px;
+
+nav {
+    list-style-type: none;
+    margin-bottom: 20px;
 }
 
+.Hiinn4455ddWZFe li {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.inner-container1 {
+    border: 3px solid black;
+    width: 40%;
+    height: 120px;
+    overflow: hidden;
+    background-image: url(images/0002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.inner-paragraph1 {
+    border: 3px solid black; 
+    width: 40%;
+    height: 120px;
+    overflow: hidden;
+    margin-left: 58%;
+    margin-top: -140px;
+    background-image: url(images/0002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Maintaining-the-properway {
+    color: black;
+    text-decoration: none;
+}
+.classing-an-idelement {
+    color: black;
+    text-decoration: none;
+}
