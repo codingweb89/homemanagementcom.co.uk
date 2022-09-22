@@ -1,0 +1,205 @@
+html {
+    background-image: url(images/0001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100%;
+}
+
+.parent {
+   padding: 0px;
+   margin: 0px;
+   margin-top: -3px;
+   margin-left: 270px;
+}
+.parent li {
+    display: inline;
+    position: fixed;
+}
+.second-child {
+    margin-left: 1005px;
+    text-transform: uppercase;
+}
+.first-child {
+    color: red;
+    text-decoration: none;
+    background-color: black;
+    padding: 3px;
+    border-radius: 3px;
+}
+.first-child:hover {
+    background-color: black;
+    color: white;
+}
+.first-child:focus {
+    background-color: black;
+    color: white;
+}
+.house-mana {
+    color: black;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 160px;
+}
+.parent-1 {
+    margin: 0px;
+    padding: 0px;
+}
+.first-mum:hover {
+    text-decoration: underline;
+}
+.parent-1 li {
+    padding-bottom: 40px;
+}
+.first-mum {
+    color: blue;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.appmanager {
+    color: red;
+}
+
+.book-1 {
+    text-align: center;
+}
+.box-model, .second-div, .hell-div {
+    text-decoration: none;
+}
+.focus-1 {
+    color: blue;
+    text-decoration: none;
+}
+.focus-1:hover {
+    text-decoration: underline;
+}
+.phone1, .phone2 {
+    text-align: right;
+    margin-top: -35px;
+    margin-right: 15px;
+}
+.mouse1, .mouse2 {
+    text-align: right;
+    margin-right: 105px;
+    margin-top: -35px;
+}
+.mirrow1, .mirrow2 {
+    text-align: center;
+    margin-top: -28px;
+    margin-right: 111px;
+}
+.mouth, .cord-wire {
+    float: left;
+    margin-right: 30px;
+    margin-left: 35px;
+    margin-top: -1px;
+}
+.kettle1, .kettle {
+    float: left;
+    margin-top: 0px;
+}
+.key1, .key2 {
+    margin-top: -1px;
+}
+
+
+
+.instagram {
+    width: 100px;
+}
+.facebook {
+    width: 45px;
+    margin-left: 22px;
+    margin-top: 9px;
+    border-radius: 10px;
+}
+.twitter {
+    width: 45px;
+    margin-left: -10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+.blank-1 {
+    color: blue;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.blank-1:hover {
+    text-decoration: underline;
+}
+.browse {
+    display: flex;
+    justify-content: center;
+}
+.browse, .browse-1 {
+    width: 80%;
+    height: 290px;
+    border-radius: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    overflow: hidden;
+}
+.browse, .browse-2 {
+    width: 80%;
+    height: 290px;
+    border-radius: 1px;
+    overflow: hidden;
+
+}
+.select {
+    border: 5px solid grey;
+    border-radius: 1px;
+    box-sizing: border-box;
+    width: 30%;
+}
+.footer {
+    text-align: center;
+}
+
+nav {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.Hiinn4455ddWZFe li {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.inner-container1 {
+    border: 3px solid black;
+    width: 40%;
+    height: 120px;
+    overflow: hidden;
+    background-image: url(images/0002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.inner-paragraph1 {
+    border: 3px solid black; 
+    width: 40%;
+    height: 120px;
+    overflow: hidden;
+    margin-left: 58%;
+    margin-top: -140px;
+    background-image: url(images/0002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Maintaining-the-properway {
+    color: black;
+    text-decoration: none;
+}
+.classing-an-idelement {
+    color: black;
+    text-decoration: none;
+}
