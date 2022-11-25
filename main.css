@@ -1,0 +1,367 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: purple;
+    height: 30px;
+}
+.Thefirst1385URlElement {
+    display: inline;
+    padding-top: 150px;
+}
+.Thefirst1385URlElement .HelotheisHRMlissoBvious {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    padding-top: 150px;
+
+}
+ul, .Thefirst1385URlElement, .HelotheisHRMlissoBvious {
+   padding-top: 10px;
+}
+.Thefirst1385URlElement:hover .HelotheisHRMlissoBvious {
+    color: skyblue;
+    text-decoration: underline;
+    text-decoration-color: skyblue;
+}
+#Theisthe1stmaindivinthisEleMent {
+    width: 100%;
+    height: 200px;
+    background-color: skyblue;
+}
+h1 {
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    text-transform: capitalize;
+    width: 30%;
+}
+h1 .Firstalilivanhomepahe {
+    color: purple;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 .WhatisgoningonintThiscAss {
+    color: black;
+    font-size: 30px;
+
+}
+.Thisshouldbeanidingthiselement {
+    width: 20%;
+    position: relative;
+    top: -170px;
+}
+.Justananotherclasselement {
+    text-align: right;
+}
+.Ringdidyouhearmecalling12 {
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+.Ringdidyouhearmecalling12, input {
+    padding: 20px;
+    width: 80%;
+    font-size: 1em;
+    margin-left: 35px;
+}
+h2 {
+    text-transform: capitalize;
+    background-color: rgb(255, 255, 255);
+}
+.Freeguyof1234HomePagE {
+    text-align: center;
+}
+.Thetextareaparatra-1ofit, textarea {
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.TheInputtypeofthishtmlpage, .colosseumofthishouseMouse {
+    width: 300px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+h2 a {
+    text-decoration: none;
+    color: black;
+}
+.theSecondimage {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 50%;
+    border-radius: 25px;
+}
+.Juiceworldabout {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+}
+.readmore {
+    text-decoration: none;
+    color: blue;
+}
+.relatedpost {
+    color: purple;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    margin-left: 20px;
+    border-top: 1px solid purple;
+    border-bottom: 1px solid purple;
+    border-left: 4px solid purple;
+    width: 300px;
+    padding: 5px;
+}
+
+.this-is-the-listing-tag .this-is-the-anchor-tag:hover {
+    text-decoration: underline;
+}
+.theimagepartofthipage {
+    height: 250px;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    background-image: url(images/dollar-2931882_640.webp);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.thelinkingstuff {
+    color: purple;
+    display: block;
+    position: relative;
+    left: 60px;
+    top: 20px;
+    width: 200px;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid white;
+    outline: 1px solid purple;
+    
+}
+.thisisthebuttontype {
+   margin-left: 30px;
+   border-radius: 5px;
+}
+.thisisthebuttontype, button, span {
+    padding: 10px;
+    width: 200px;
+}
+.timeformetoclassyou {
+    width: 80%;
+    height: 280px;
+    margin-left: 10%;
+    border-radius: 3px;
+}
+.thisisthefooterelememtpage {
+    background-color: purple;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.istockphotos {
+   position: absolute;
+   left: 35%;
+   margin-top: 10px;
+   width: 200px;
+   border-radius: 50%;
+}
+.theparentlidting {
+    position: relative;
+    top: 60%;
+    left: 10%;
+}
+.theparentlidting, .thesubparentlisting {
+    display: inline;
+    padding: 20px;
+}
+.theparentlidting, .thesubparentlisting a {
+    color: white;
+    text-decoration: none;
+}
+.ifihavetoclassyou:focus {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, purple, lightblue);
+}
+.ifihavetoclassyou:hover {
+    text-decoration: underline;
+}
+.thisisthelastdivofthispage {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: -15px;
+}
+.thisisalsothelastparapraph {
+    text-align: center;
+}
+.heading-2 .heading-2-anchor {
+    position: absolute;
+    margin-top: 150px;
+    left: 30px;
+    border: 1px solid white;
+    background: linear-gradient(to right, purple, lightblue);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.theimageofthedivelement, .imageclassfile{
+    width: 50px;
+    height: 50px;
+}
+.theimageofthedivelement{
+   display: flex;
+   display: inline;
+   padding: 5px;
+}
+.thisistheanchortagofthiselement {
+    color: purple;
+    position: relative;
+    top: -25px;
+    text-decoration: none;
+}
+.thisistheanchortagofthiselement:hover {
+    text-decoration: underline;
+}
+.imageclassfile {
+    border-radius: 1px;
+}
+.theprvioustaskofthispage {
+    text-align: left;
+    width: 40%;
+    margin-top: 30px;
+}
+.tellthereasonwhyididnotclassyou {
+    color: purple;
+    text-decoration: none;
+}
+.tellthereasonwhyididnotclassyou:hover {
+    text-decoration: underline;
+}
+.tellthereasonwhyididnotclassyou:focus {
+    text-decoration: underline;
+}
+.previous {
+    color: purple;
+    text-decoration: none;
+}
+.previous:hover {
+    text-decoration: underline;
+}
+.previous:focus {
+    color: rgb(255, 112, 112);
+}
+.thenexttaskofthispage {
+    text-align: right;
+    width: 40%;
+    margin-top: -80px;
+}
+.thereshouldntbeanytaskhere {
+    position: relative;
+    left: 150%;
+    top: -100%;
+    text-decoration: none;
+    color: purple
+}
+.thereshouldntbeanytaskhere:hover {
+    text-decoration: underline;
+}
+.thereshouldntbeanytaskhere:hover {
+    text-decoration: underline;
+}
+.thisisthenextlink {
+    text-align: right;
+    margin-right: 20px;
+}
+.thisistheurlofnexppage {
+    text-align: right;
+    color: purple;
+    text-decoration: none;
+}
+.thisistheurlofnexppage:hover {
+    text-decoration: underline;
+}
+.thisistheurlofnexppage:focus {
+    text-decoration: underline;
+}
+.Thesecondrecentpostofthispage {
+    margin-left: 20px;
+    font-size: 1.5em;
+    color: purple;
+}
+.notaffecting {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    overflow: hidden;
+}
+.Thelidtsytltypeoflist {
+    text-align: left;
+    padding: 20px;
+    border-bottom: 1px solid purple;
+    width: 450px;
+}
+.notaffecting, .Thelidtsytltypeoflist, .Thelinkingpartofthispage {
+    color: purple;
+    text-decoration: none;
+}
+.Thelinkingpartofthispage:hover {
+    text-decoration: underline;
+}
+.heading3 {
+    margin-left: 20px;
+}
+.checkbox1 {
+    width: 20px;
+}
+.checkboxdiv {
+    position: relative;
+    top: -20px;
+    margin-left: -10px;
+}
+#imagesource1 {
+    width: 15px;
+    position: relative;
+    bottom: 8px;
+}
+.paragraph {
+    text-align: right;
+}
+.imageparapgraph {
+    position: relative;
+    right: 8px;
+    bottom: 25px;
+    position: fixed;
+    background-color: purple;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 30px;
+    border-radius: 3px;
+}
+.mustclass {
+    margin-left: 20px;
+}
+.divelement {
+    position: relative;
+    left: 60px;
+    top: -20px;
+    width: 90%;
+}
+.delete-element {
+    text-align: center;
+}

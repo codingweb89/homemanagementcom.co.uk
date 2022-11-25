@@ -103,11 +103,8 @@ h2{
 }
 
 .moisture {
-    border: 2px solid white;
-    height: 300px;
     width: 100%;
     text-align: center;
-    background-image: url(images/istockphoto-1288992681-612x612.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
@@ -118,20 +115,204 @@ h2{
     margin-top: -50px;
     font-weight: bolder;
     font-size: xx-large;
-    color: black;
+    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
-.moisture1 {
-    background-image: url(images/istockphoto-1159994596-612x612.jpg);
-    height: 400px;
+.justmakingmoneyonfacebokkbbij {
+    text-align: center;
+    color: grey;
 }
-.moisture2 {
-    background-image: url(images/istockphoto-1146279115-612x612.jpg);
+.justthhompegeofthisURlinabothtml {
+    padding: 30px;
+    color: grey;
+    text-decoration: none;
+    padding-top: 10px;
 }
-.moisture3 {
-    background-image: url(images/istockphoto-1174952740-612x612.jpg);
+.justthhompegeofthisURlinabothtml:hover {
+    text-decoration: underline;
 }
-.moisture4 {
-    background-image: url(images/istockphoto-1310961723-612x612.jpg);
+.waitingformetotouchyouok {
+    color: grey;
+    text-decoration: none;
+}
+.waitingformetotouchyouok:hover {
+    text-decoration: underline;
+}
+.Therecentofthispaostpage {
+    text-transform: capitalize;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-top: 1px solid grey;
+    border-left: 4px solid blue;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    width: 30%;
+}
+.Thesecondrecentpostofthispage {
+    margin-left: 20px;
+    font-size: 1.5em;
+    color: red;
+}
+.Thelidtsytltypeoflist {
+    margin-bottom: 40px;
+    border-bottom: 1px solid grey;
+    width: 450px;
+}
+.Thelidtsytltypeoflist .Thelinkingpartofthispage {
+    color: lightblue;
+    text-decoration: none;
+}
+.Thelidtsytltypeoflist .Thelinkingpartofthispage:hover {
+    text-decoration: underline;
+}
+.thparentelementofthispageplease {
+    list-style-type: none;
+    margin-left: -20px;
+}
+.thenexttaskofthispage {
+    text-align: right;
+    width: 40%;
+    margin-top: -80px;
+}
+.thereshouldntbeanytaskhere {
+    position: relative;
+    left: 150%;
+    top: -100%;
+    text-decoration: none;
+    color: red
+}
+.theprvioustaskofthispage {
+    text-align: left;
+    width: 40%;
+    margin-top: 30px;
+}
+.thisistheurlofnexppage {
+    text-align: right;
+    color: grey;
+    text-decoration: none;
+}
+.thisisthenextlink {
+    text-align: right;
+    margin-right: 20px;
+}
+.tellthereasonwhyididnotclassyou {
+    color: red;
+    text-decoration: none;
+}
+.previous {
+    color: grey;
+    text-decoration: none;
+}
+.previous:hover {
+    text-decoration: underline;
+}
+.previous:focus {
+    color: rgb(255, 112, 112);
+}
+.thisistheurlofnexppage:hover {
+    text-decoration: underline;
+}
+.thisistheurlofnexppage:focus {
+    color: rgb(255, 112, 112);
+}
+.tellthereasonwhyididnotclassyou:hover {
+    text-decoration: underline;
+}
+.tellthereasonwhyididnotclassyou:focus {
+    color: rgb(255, 112, 112);
+}
+.thereshouldntbeanytaskhere:hover {
+    text-decoration: underline;
+}
+.thereshouldntbeanytaskhere:focus {
+    color: rgb(255, 112, 112);
+}
+.socialmedia p .anchorimage img {
+    width: 30px;
+
+}
+.socialmedia p {
+    display: inline;
+}
+.socialmedia {
+    position: relative;
+    padding: 10px;
+    background-color: black;
+}
+.helloladiesandgentlemenWelconeTo12Sow {
+    width: 100%;
+    height: 220px;
+    background-color: black;
+}
+.alinkTObefollowingingThePage {
+    text-align: center;
+    color: grey;
+    margin-bottom: -15px;
+    text-decoration: underline;
+    text-decoration-color: grey;
+}
+.media {
+    display: flex;
+    justify-content: center;
+}
+.instagram {
+    width: 40px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.footer {
+    text-align: center;
+    color: grey;
+}
+.focus-1 {
+    color: blue;
+    text-decoration: none;
+}
+.focus-1:hover {
+    text-decoration: underline;
+}
+.ThisisAno1355thing {
+    padding: 20px;
+}
+.disagree {
+    color: blue;
+}
+.theimageofthedivelement, .imageclassfile{
+    width: 50px;
+    height: 50px;
+}
+.theimageofthedivelement{
+   display: flex;
+   display: inline;
+   padding: 5px;
+}
+.theimageofthedivelement, .imageclassfile{
+    width: 50px;
+    height: 50px;
+}
+.imageclassfile {
+    border-radius: 1px;
+}
+.pictures {
+    display: inline-block;
+    width: 400px;
+}
+.thisistheanchortagofthiselement {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    position: relative;
+    left: 5px;
+    top: -10px;
+   
+}
+.thisistheanchortagofthiselement:hover {
+    text-decoration: underline;
+}
+.about {
+    text-align: center;
 }
