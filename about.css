@@ -145,22 +145,24 @@ h2{
 .Therecentofthispaostpage {
     text-transform: capitalize;
     margin-top: 50px;
-    margin-left: 20px;
-    border-top: 1px solid grey;
-    border-left: 4px solid blue;
-    border-bottom: 1px solid grey;
+    margin-left: 10px;
+    border-top: 3px solid grey;
+    border-left: 5px solid blue;
+    border-bottom: 3px solid grey;
     padding: 10px;
-    width: 30%;
+    width: 300px;
+    font-weight: bold;
 }
 .Thesecondrecentpostofthispage {
     margin-left: 20px;
     font-size: 1.5em;
     color: red;
+    margin-top: 30px;
 }
 .Thelidtsytltypeoflist {
-    margin-bottom: 40px;
-    border-bottom: 1px solid grey;
-    width: 450px;
+    text-align: left;
+    padding: 20px;
+    width: 90%;
 }
 .Thelidtsytltypeoflist .Thelinkingpartofthispage {
     color: lightblue;
@@ -175,19 +177,18 @@ h2{
 }
 .thenexttaskofthispage {
     text-align: right;
-    width: 40%;
-    margin-top: -80px;
+    width: 50%;
+    margin-top: -75px;
 }
 .thereshouldntbeanytaskhere {
     position: relative;
-    left: 150%;
-    top: -100%;
+    left: 100%;
     text-decoration: none;
     color: red
 }
 .theprvioustaskofthispage {
     text-align: left;
-    width: 40%;
+    width: 30%;
     margin-top: 30px;
 }
 .thisistheurlofnexppage {
@@ -211,25 +212,25 @@ h2{
     text-decoration: underline;
 }
 .previous:focus {
-    color: rgb(255, 112, 112);
+    color: grey;
 }
 .thisistheurlofnexppage:hover {
     text-decoration: underline;
 }
 .thisistheurlofnexppage:focus {
-    color: rgb(255, 112, 112);
+    color: grey;
 }
 .tellthereasonwhyididnotclassyou:hover {
     text-decoration: underline;
 }
 .tellthereasonwhyididnotclassyou:focus {
-    color: rgb(255, 112, 112);
+    color: grey;
 }
 .thereshouldntbeanytaskhere:hover {
     text-decoration: underline;
 }
 .thereshouldntbeanytaskhere:focus {
-    color: rgb(255, 112, 112);
+    color: grey;
 }
 .socialmedia p .anchorimage img {
     width: 30px;
@@ -299,7 +300,7 @@ h2{
 }
 .pictures {
     display: inline-block;
-    width: 400px;
+    width: 70%;
 }
 .thisistheanchortagofthiselement {
     color: white;
@@ -307,7 +308,7 @@ h2{
     font-family: sans-serif;
     position: relative;
     left: 5px;
-    top: -10px;
+    top: -5px;
    
 }
 .thisistheanchortagofthiselement:hover {
@@ -315,4 +316,11 @@ h2{
 }
 .about {
     text-align: center;
+}
+
+.element-div {
+    border-top: 2px solid grey;
+}
+.element-div-2 {
+    border-top: 2px solid grey;
 }

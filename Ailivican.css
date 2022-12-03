@@ -1,0 +1,220 @@
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: purple;
+    height: 30px;
+}
+.Thefirst1385URlElement {
+    display: inline;
+    padding-top: 150px;
+}
+.Thefirst1385URlElement .HelotheisHRMlissoBvious {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    padding-top: 150px;
+
+}
+ul, .Thefirst1385URlElement, .HelotheisHRMlissoBvious {
+   padding-top: 10px;
+}
+.Thefirst1385URlElement:hover .HelotheisHRMlissoBvious {
+    color: skyblue;
+    text-decoration: underline;
+    text-decoration-color: skyblue;
+}
+#Theisthe1stmaindivinthisEleMent {
+    width: 100%;
+    height: 200px;
+    background-color: skyblue;
+}
+h1 {
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    text-transform: capitalize;
+    width: 30%;
+}
+h1 .Firstalilivanhomepahe {
+    color: purple;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    position: relative;
+    right: 10px;
+}
+h1 .WhatisgoningonintThiscAss {
+    color: black;
+    display: flex;
+}
+h1 {
+    font-size: 30px;
+}
+.Thisshouldbeanidingthiselement {
+    width: 20%;
+    position: relative;
+    top: -170px;
+}
+.Justananotherclasselement {
+    text-align: right;
+}
+h2 {
+    text-transform: capitalize;
+    background-color: rgb(255, 255, 255);
+}
+
+h2 a {
+    text-decoration: none;
+    color: black;
+}
+.theSecondimage {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 50%;
+    border-radius: 25px;
+}
+.Juiceworldabout {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+}
+.readmore {
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    padding: 5px;
+    border-radius: 5px;
+}
+.moreread {
+    position: relative;
+    top: 8px;
+    margin-bottom: 50px;
+}
+
+.this-is-the-listing-tag .this-is-the-anchor-tag:hover {
+    text-decoration: underline;
+}
+.timeformetoclassyou {
+    width: 80%;
+    height: 280px;
+    margin-left: 10%;
+    border-radius: 3px;
+}
+.thisisthefooterelememtpage {
+    background-color: purple;
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+}
+.istockphotos {
+    position: absolute;
+    left: 35%;
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 50%;
+ }
+.theparentlidting {
+    position: relative;
+    top: 55%;
+}
+.theparentlidting, .thesubparentlisting {
+    display: inline;
+    padding: 20px;
+
+}
+.theparentlidting, .thesubparentlisting a {
+    color: white;
+    text-decoration: none;
+}
+.theparentlidting, .thesubparentlisting {
+    display: inline;
+    padding: 10px;
+}
+.theparentlidting, .thesubparentlisting a {
+    color: white;
+    text-decoration: none;
+}
+.ifihavetoclassyou:focus {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, purple, lightblue);
+}
+.ifihavetoclassyou:hover {
+    text-decoration: underline;
+}
+.thisisthelastdivofthispage {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: -15px;
+}
+.thisisalsothelastparapraph {
+    text-align: center;
+}
+.thanks {
+    text-align: center;
+}
+.heading-2 .heading-2-anchor {
+    position: absolute;
+    margin-top: 170px;
+    left: 30px;
+    border: 1px solid white;
+    background: linear-gradient(to right, purple, lightblue);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+#imagesource1 {
+    width: 15px;
+    position: relative;
+    bottom: 8px;
+}
+.paragraph {
+    text-align: right;
+}
+.paragraph-text {
+    text-align: right;
+}
+.imageparapgraph {
+    position: relative;
+    right: 8px;
+    bottom: 25px;
+    position: fixed;
+    background-color: purple;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 30px;
+    border-radius: 3px;
+}
+.delete-element {
+    text-align: center;
+}
+.paragraph-element {
+    margin-left: 20px;
+}
+
+.number-element, .number-achor-element{
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+.number-achor-element {
+    border: 1px solid purple;
+    color: purple;
+}
+.Next-page {
+    color: purple;
+}
+.anchor-page {
+    background-color: purple;
+    color: white;
+}
