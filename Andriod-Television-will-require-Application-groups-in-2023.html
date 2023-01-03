@@ -386,19 +386,23 @@
 
 .firstdivelement {
     position: relative;
-    width: 345px;
-    height: 120px;
+    width: 400px;
+    height: 140px;
     top: 0px;
     left: 20px;
 }
-@media (max-width: 520px) {
+@media (min-width: 500px) {
     .firstdivelement {
         width: 300px;
+        position: relative;
+        left: 50px;
     }
 }
 @media (max-width: 720px) {
     .firstdivelement {
         width: 300px;
+        position: relative;
+        left: 50px;
     }
 }
 .secondclass {
@@ -406,10 +410,12 @@
     border-left: solid 5px purple;
     padding: 10px;
     border-radius: 2px;
+    width: 300px;
 }
 .anchor-paragraph {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: white;
 }
 .anchor-paragraph:focus {
     color: lightblue;
@@ -486,24 +492,12 @@ span i {
     position: relative;
     top: -17px;
 }
-@media (min-width: 520px) {
-    .main-figure .main-image-figure {
-        position: relative;
-        left: 0px;
-    }
-    
-}
-@media (min-width: 720px) {
-    .main-figure .main-image-figure {
-        width: 300px;
-        position: relative;
-        left: 0px;
-    }
-    
-}
+
 @media (max-width: 720px) {
-    .img-div-element{
+    .main-figure .main-image-figure {
         width: 300px;
+        position: relative;
+        left: 0px;
     }
     
 }
@@ -614,16 +608,7 @@ figure .image-of-the-figure {
 }
 figure .figure-caption {
     color: purple;
-}
-@media (max-width: 460px) {
-    figure .image-of-the-figure {
-        width: 460px;
-    }
-}
-@media (max-width: 480px) {
-    figure .image-of-the-figure {
-        width: 480px;
-    }
+    text-decoration: none;
 }
 @media (max-width: 500px) {
     figure .image-of-the-figure {
@@ -633,12 +618,7 @@ figure .figure-caption {
 }
 @media (max-width: 720px) {
     figure .image-of-the-figure {
-        width: 400px;
-    }
-
-}@media (max-width: 810px) {
-    figure .image-of-the-figure {
-        width: 400px;
+        width: 300px;
     }
 
 }
@@ -742,7 +722,7 @@ figure .figure-caption {
            
         <div class="firstdivelement">
             <div class="secondclass">
-                <p><a class="anchor-paragraph" href="Most-Extreme-'wobbling-black-hole'-Ever-Dectected-Exotic-Phenomenon-Predicted-By-Einstein's-Theory-of-Gravity.html"><span id="readalso">READ ALSO:</span>   Most Extreme “Wobbling Black Hole” Ever Detected – Exotic Phenomenon Predicted by Einstein’s Theory of Gravity.</a></p>
+                <p><a class="anchor-paragraph" href="Most-Extreme-'wobbling-black-hole'-Ever-Dectected-Exotic-Phenomenon-Predicted-By-Einstein's-Theory-of-Gravity.html">READ ALSO:   Most Extreme “Wobbling Black Hole” Ever Detected – Exotic Phenomenon Predicted by Einstein’s Theory of Gravity.</a></p>
             </div>
         </div>
 
