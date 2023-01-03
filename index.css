@@ -202,8 +202,9 @@ h2 a {
 }
 
 .heading-1 {
-    width: 400px;
+    width: 350px;
     margin-left: 10px;
+    font-size: 15px;
 }
 .anhorElement {
     text-decoration: none;
@@ -223,6 +224,9 @@ section {
         grid-template-columns: repeat(1, 250px);
         position: relative;
         right: 70px;
+    }
+    .first-image {
+        width: 200px;
     }
 }
 @media (max-width: 850px) {
@@ -258,6 +262,11 @@ marquee {
     padding: 0;
 }
 @media (min-width: 720px) {
+    .firstImageOfThisPage {
+        height: 350px;
+    }
+}
+@media (max-width: 720px) {
     .firstImageOfThisPage {
         height: 350px;
     }
@@ -306,6 +315,6 @@ marquee {
 @media (max-width: 720px) {
     #firstButton {
         position: absolute;
-        right: 350px;
+        right: 250px;
     }
 }
