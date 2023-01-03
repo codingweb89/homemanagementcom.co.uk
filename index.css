@@ -204,8 +204,8 @@ h2 a {
 .heading-1 {
     width: 300px;
     position: relative;
-    left: 30px;
-    font-size: 15px;
+    left: 50px;
+    
 }
 .anhorElement {
     text-decoration: none;
@@ -229,7 +229,11 @@ section {
     .first-image {
         width: 300px;
         position: relative;
-        left: 30px;
+        left: 50px;
+    }
+    .heading-1 {
+        text-align: center;
+        font-size: 15px;
     }
 }
 @media (max-width: 850px) {
