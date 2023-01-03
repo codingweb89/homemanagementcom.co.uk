@@ -410,7 +410,7 @@
     border-left: solid 5px purple;
     padding: 10px;
     border-radius: 2px;
-    width: 300px;
+    width: 250px;
 }
 .anchor-paragraph {
     color: white;
@@ -499,6 +499,9 @@ span i {
         position: relative;
         left: 0px;
     }
+    .img-div-element {
+        height: 250px;
+    }
     
 }
 
@@ -571,6 +574,7 @@ figcaption {
 }
 .category-llist {
     list-style: none;
+    
 }
 .category-achor-list {
     text-decoration: none;
@@ -578,6 +582,15 @@ figcaption {
     font-weight: bold;
     color: black;
     text-transform: uppercase;
+}
+@media (max-width: 720px) {
+    .category {
+        margin-left: 0;
+    }
+    .category-llist {
+        margin: 0;
+        padding: 0;
+    }
 }
 
 
@@ -608,7 +621,9 @@ figure .image-of-the-figure {
 }
 figure .figure-caption {
     color: purple;
-    text-decoration: none;
+}
+.figure-caption {
+    text-decoration-color: purple;
 }
 @media (max-width: 500px) {
     figure .image-of-the-figure {
@@ -977,7 +992,7 @@ figure .figure-caption {
 
 
 
-
+<div class="websiteChecking">
 <h2 class="category">Category</h2>
 <ul class="category-llist">
     <li><a href="#" class="category-achor-list">Celebrity</a></li>
@@ -985,7 +1000,7 @@ figure .figure-caption {
     <li><a href="#" class="category-achor-list">Health</a></li>
     <li><a href="#" class="category-achor-list">Social</a></li>
 </ul>
-
+</div>
 
 </section>
 
