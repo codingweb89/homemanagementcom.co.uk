@@ -284,31 +284,31 @@
     position: relative;
     top: 55%;
 }
-@media (max-width: 480px) {
-    .theparentlidting, .thesubparentlisting {
+
+@media (max-width: 520px) {
+    .thesubparentlisting a {
         display: block;
+        margin-top: -30px;
+        margin-left: 10px;
+        padding: 15px;
+    }
+    .heading-2 {
+        position: relative;
+        top: -100px;
+        left: 250px;
     }
 }
-@media (max-width: 460px) {
-    .theparentlidting, .thesubparentlisting {
+@media (max-width: 720px) {
+    .thesubparentlisting a {
         display: block;
+        margin-top: -30px;
+        margin-left: 10px;
+        padding: 15px;
     }
-}@media (max-width: 667px) {
-    .theparentlidting, .thesubparentlisting {
-        display: block;
-    }
-}@media (max-width: 812px) {
-    .theparentlidting, .thesubparentlisting {
-        display: block;
-    }
-}@media (max-width: 736px) {
-    .theparentlidting, .thesubparentlisting {
-        display: block;
-    }
-}
-@media (max-width: 640px) {
-    .theparentlidting, .thesubparentlisting {
-        display: block;
+    .heading-2 {
+        position: relative;
+        top: -100px;
+        left: 250px;
     }
 }
 
@@ -473,85 +473,60 @@ span i {
     margin-bottom: 23px;
 }
 .main-figure .main-image-figure {
-    width: 500px;
+    width: 470px;
     position: relative;
     top: -17px;
-    left: 50px;
 }
-@media (max-width: 460px) {
+@media (min-width: 520px) {
     .main-figure .main-image-figure {
-        width: 460px;
         position: relative;
-        left: 0;
+        left: 0px;
     }
+    
 }
-@media (max-width: 480px) {
-    .main-figure .main-image-figure{
-        width: 480px;
+@media (min-width: 720px) {
+    .main-figure .main-image-figure {
+        width: 400px;
         position: relative;
-        left: 0;
+        left: 0px;
     }
-
-}
-@media (max-width: 500px) {
-    .main-figure .main-image-figure{
-        width: 470px;
-        position: relative;
-        left: 0;
-    }
-
-}
-@media (max-width: 540px) {
-    .main-figure .main-image-figure{
-        position: relative;
-        left: 0;
-    }
-
-}
-@media (max-width: 613) {
-    .main-figure .main-image-figure{
-        position: relative;
-        left: 0;
-    }
-
-}
-@media (max-width: 640px) {
-    section {
-        position: relative;
-        left: 0;
-    }
-}
-@media (max-width: 667px) {
-    section {
-        position: relative;
-        left: 0;
-    }
-}
-@media (max-width: 736px) {
-    section {
-        position: relative;
-        left: 0;
-    }
-}
-@media (max-width: 812px) {
-    section {
-        position: relative;
-        left: 0;
-    }
-}
-@media (max-width: 986px) {
-    section {
-        position: relative;
-        left: 0;
-    }
+    
 }
 
+
+
+@media (min-width: 1000px) {
+    section {
+        width: 650px;
+        position: relative;
+        left: 30%;
+    }
+    .main-figure .main-image-figure {
+        width: 500px;
+    }
+}
 
 
 
 .first-ul-links {
     list-style-type: none;
     
+}
+@media (max-width: 520px) {
+    .aboutUs {
+        visibility: hidden;
+    }
+    .contactUs {
+        visibility: hidden;
+    }
+}
+@media (max-width: 720px) {
+    .aboutUs {
+        visibility: hidden;
+    }
+    .contactUs {
+        visibility: hidden;
+    }
 }
 .first-li-links {
     display: inline;
@@ -604,64 +579,6 @@ figcaption {
 
 
 
-section {
-  width: 500px;
-  position: relative;
-  left: 35%;
-}
-@media (max-width: 460px) {
-    section {
-        position: relative;
-        width: 460px;
-        left: 0;
-    }
-}
-@media (max-width: 480px) {
-    section {
-        position: relative;
-        left: 480px;
-        left: 0;
-        width: 480px;
-    }
-}
-@media (max-width: 500px) {
-    section {
-        position: relative;
-        width: 470px;
-        left: 0;
-    }
-}
-@media (max-width: 640px) {
-    section {
-        position: relative;
-        left: 0;
-    }
-}
-@media (max-width: 667px) {
-    section {
-        position: relative;
-        left: 0;
-    }
-}
-@media (max-width: 736px) {
-    section {
-        position: relative;
-        left: 0;
-    }
-}
-@media (max-width: 812px) {
-    section {
-        position: relative;
-        left: 0;
-    }
-}
-@media (max-width: 986px) {
-    section {
-        position: relative;
-        left: 0;
-    }
-}
-
 
 
 
@@ -694,6 +611,17 @@ figure .figure-caption {
     }
 }
 @media (max-width: 500px) {
+    figure .image-of-the-figure {
+        width: 400px;
+    }
+
+}
+@media (max-width: 720px) {
+    figure .image-of-the-figure {
+        width: 400px;
+    }
+
+}@media (max-width: 810px) {
     figure .image-of-the-figure {
         width: 400px;
     }
@@ -746,8 +674,8 @@ figure .figure-caption {
 <nav class="nav-links">
     <ul class="first-ul-links">
         <li class="first-li-links"><a href="index.html" class="first-a-links checking">Home</a></li>
-        <li class="first-li-links"><a href="About-us-index.html" class="first-a-links">About Us</a></li>
-        <li class="first-li-links"><a href="mail: codingweb656@gmail.com" class="first-a-links">Contact Us</a></li>
+        <li class="first-li-links"><a href="About-us-index.html" class="first-a-links aboutUs">About Us</a></li>
+        <li class="first-li-links"><a href="mail: codingweb656@gmail.com" class="first-a-links contactUs">Contact Us</a></li>
 
     </ul>
 </nav>
@@ -952,7 +880,7 @@ figure .figure-caption {
         <div class="inner-element1">
             <div class="inner-element-2">
                 <figure class="thetextalignfigure">
-                    <a href="fast-ways-to-make-limitless-email-address-in-your-G-mail-account.html"><img src="images/Andriod Television.jpg" alt="Andriod Television" class="image-of-the-figure">
+                    <a href="fast-ways-to-make-limitless-email-address-in-your-G-mail-account.html"><img src="images/multiple email.jpg" alt="Fast way to make limitless email address in your Gmail Account" class="image-of-the-figure">
                     <figcaption class="figure-caption">Fast ways to make limitless email address in your Gmail Account</figcaption></a>
                 </figure>
             </div>
@@ -964,7 +892,7 @@ figure .figure-caption {
         <div class="inner-element1">
             <div class="inner-element-2">
                 <figure class="thetextalignfigure">
-                    <a href="Freezing-Temperature-kills-57- Death-Toll-Rises,-Destructive-Snow-Hits-Us.html"><img src="images/Andriod Television.jpg" alt="Andriod Television" class="image-of-the-figure">
+                    <a href="Freezing-Temperature-kills-57- Death-Toll-Rises,-Destructive-Snow-Hits-Us.html"><img src="images/united states.jpg" alt="Freezing temperature kills 57" class="image-of-the-figure">
                     <figcaption class="figure-caption">Freezing Tempreature kills 57, Death Toll rises, Destructive Snow hits Us</figcaption></a>
                 </figure>
             </div>
@@ -977,7 +905,7 @@ figure .figure-caption {
         <div class="inner-element1">
             <div class="inner-element-2">
                 <figure class="thetextalignfigure">
-                    <a href="how-to-create-a-Gmail-Account.html"><img src="images/Andriod Television.jpg" alt="Andriod Television" class="image-of-the-figure">
+                    <a href="how-to-create-a-Gmail-Account.html"><img src="images/Untitled design.webp" alt="how to create a Gmail Account" class="image-of-the-figure">
                     <figcaption class="figure-caption">How to create a Gmail Account</figcaption></a>
                 </figure>
             </div>
@@ -990,7 +918,7 @@ figure .figure-caption {
         <div class="inner-element1">
             <div class="inner-element-2">
                 <figure class="thetextalignfigure">
-                    <a href="Increment-of-war-crimes-court-by-the-Central-African-Republic.html"><img src="images/Andriod Television.jpg" alt="Andriod Television" class="image-of-the-figure">
+                    <a href="Increment-of-war-crimes-court-by-the-Central-African-Republic.html"><img src="images/JUDGE.png" alt="Increment of war crimes court by the centreal african republic" class="image-of-the-figure">
                     <figcaption class="figure-caption">Increment of war crimes court by the central African Republic</figcaption></a>
                 </figure>
             </div>
@@ -1003,7 +931,7 @@ figure .figure-caption {
         <div class="inner-element1">
             <div class="inner-element-2">
                 <figure class="thetextalignfigure">
-                    <a href="New-year-Prophecies-still-in-place-on-alarmist - Ghana-Police.html"><img src="images/Andriod Television.jpg" alt="Andriod Television" class="image-of-the-figure">
+                    <a href="New-year-Prophecies-still-in-place-on-alarmist - Ghana-Police.html"><img src="images/Ghana.jpg" alt="New year prophecies still in place" class="image-of-the-figure">
                     <figcaption class="figure-caption">New year Prophecies still in place on alarmist - Ghana Police</figcaption></a>
                 </figure>
             </div>
@@ -1016,7 +944,7 @@ figure .figure-caption {
         <div class="inner-element1">
             <div class="inner-element-2">
                 <figure class="thetextalignfigure">
-                    <a href="Ukraine-peace-plan.html"><img src="images/Andriod Television.jpg" alt="Andriod Television" class="image-of-the-figure">
+                    <a href="Ukraine-peace-plan.html"><img src="images/ukraine.jpg" alt="Ukraine peace plan" class="image-of-the-figure">
                     <figcaption class="figure-caption">Ukraine Peace Plan</figcaption></a>
                 </figure>
             </div>
@@ -1029,7 +957,7 @@ figure .figure-caption {
         <div class="inner-element1">
             <div class="inner-element-2">
                 <figure class="thetextalignfigure">
-                    <a href="what-happens-when-rapper-kanye-west-sells-his-luxury-car-collection.html"><img src="images/Andriod Television.jpg" alt="Andriod Television" class="image-of-the-figure">
+                    <a href="what-happens-when-rapper-kanye-west-sells-his-luxury-car-collection.html"><img src="images/kanye westse.jpg" alt="what happens when rapper kanye west sells his luxury car collection" class="image-of-the-figure">
                     <figcaption class="figure-caption">What happens when rapper Kanye West sells his luxury car collection</figcaption></a>
                 </figure>
             </div>
@@ -1042,8 +970,8 @@ figure .figure-caption {
         <div class="inner-element1">
             <div class="inner-element-2">
                 <figure class="thetextalignfigure">
-                    <a href="why-whatsapp-stops-operating-in-IPhone 5,- Samsung Galaxy Ace 2,- 47 Others.html"><img src="images/Andriod Television.jpg" alt="Andriod Television" class="image-of-the-figure">
-                    <figcaption class="figure-caption">Why WhatsApp stops operating i IPhone 5, Samsung Galaxy Ace 2, and 47 others</figcaption></a>
+                    <a href="why-whatsapp-stops-operating-in-IPhone 5,- Samsung Galaxy Ace 2,- 47 Others.html"><img src="images/whatsapp.jpg" alt="  Why whatsapp stops operating on Iphone 5" class="image-of-the-figure">
+                    <figcaption class="figure-caption">Why WhatsApp stops operating on IPhone 5, Samsung Galaxy Ace 2, and 47 others</figcaption></a>
                 </figure>
             </div>
 
