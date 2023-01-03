@@ -202,8 +202,9 @@ h2 a {
 }
 
 .heading-1 {
-    width: 350px;
-    margin-left: 10px;
+    width: 300px;
+    position: relative;
+    left: 30px;
     font-size: 15px;
 }
 .anhorElement {
@@ -226,7 +227,9 @@ section {
         right: 70px;
     }
     .first-image {
-        width: 200px;
+        width: 300px;
+        position: relative;
+        left: 30px;
     }
 }
 @media (max-width: 850px) {
@@ -301,7 +304,7 @@ marquee {
 }
 #firstButton {
     position: absolute;
-    top: 300px;
+    top: 380px;
     right: 1200px;
     border: none;
     outline: 0;
