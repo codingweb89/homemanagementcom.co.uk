@@ -288,27 +288,27 @@
 @media (max-width: 520px) {
     .thesubparentlisting a {
         display: block;
-        margin-top: -30px;
+        margin-top: -50px;
         margin-left: 10px;
         padding: 15px;
+        position: relative;
+        top: -30px;
     }
     .heading-2 {
-        position: relative;
-        top: -100px;
-        left: 250px;
+        visibility: hidden;
     }
 }
 @media (max-width: 720px) {
     .thesubparentlisting a {
         display: block;
-        margin-top: -30px;
+        margin-top: -40px;
         margin-left: 10px;
         padding: 15px;
+        position: relative;
+        top: -30px
     }
     .heading-2 {
-        position: relative;
-        top: -100px;
-        left: 250px;
+        visibility: hidden;
     }
 }
 
@@ -323,12 +323,6 @@
 .theparentlidting, .thesubparentlisting a {
     color: white;
     text-decoration: none;
-}
-.ifihavetoclassyou:focus {
-    border: 1px solid white;
-    padding: 10px;
-    border-radius: 10px;
-    background: linear-gradient(to right, purple, lightblue);
 }
 .ifihavetoclassyou:hover {
     text-decoration: underline;
@@ -393,10 +387,19 @@
 .firstdivelement {
     position: relative;
     width: 335px;
-    height: 100px;
+    height: 120px;
     top: 0px;
-    overflow: hidden;
     left: 20px;
+}
+@media (max-width: 520px) {
+    .firstdivelement {
+        width: 300px;
+    }
+}
+@media (max-width: 720px) {
+    .firstdivelement {
+        width: 300px;
+    }
 }
 .secondclass {
     background-color: purple;
@@ -428,6 +431,12 @@ span i {
     background-color: lightgrey;
     width: 310px;
     height: 50px;
+}
+@media (max-width: 720px) {
+    .child-element-1 {
+        width: 330px;
+        height: 60px;
+    }
 }
 .main-element {
     position: relative;
@@ -486,7 +495,7 @@ span i {
 }
 @media (min-width: 720px) {
     .main-figure .main-image-figure {
-        width: 400px;
+        width: 300px;
         position: relative;
         left: 0px;
     }
@@ -1027,6 +1036,8 @@ figure .figure-caption {
                 <li class="thesubparentlisting"><a class="ifihavetoclassyou" href="index.html">Home</a></li>
                 <li class="thesubparentlisting"><a class="ifihavetoclassyou" href="privacy.html">Privacy Policy</a></li>
                 <li class="thesubparentlisting"><a class="ifihavetoclassyou" href="terms&condition.html">Terms & Condition</a></li>
+                <li class="thesubparentlisting"><a class="ifihavetoclassyou" href="#!">Contact Us</a></li>
+                <li class="thesubparentlisting"><a class="ifihavetoclassyou" href="About-us-index.html">About Us</a></li>
                 <li class="thesubparentlisting"><a class="ifihavetoclassyou" href="index.html">Blog</a></li>
             </ul>
 
