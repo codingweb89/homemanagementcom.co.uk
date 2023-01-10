@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+<style>
+    
+
+.first-ul-element {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.first-li-element {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.first-anchor-element {
+    align-self: center;
+    position: relative;
+    top: -10px;
+    left: 200px;
+    text-decoration: none;
+    padding: 5px 30px 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 444ms;
+    
+
+}
+.first-anchor-element:hover {
+    background-color: lightgrey;
+    
+}
+.first-div {
+    background-color: purple;
+    margin-top: 40px;
+}
+@media (max-width: 720px) {
+    .first-anchor-element  {
+        padding: 0px;
+    }
+    .first-ul-element {
+       transform: translateX(-1000px);
+    }
+
+}
+#span {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    visibility: hidden;
+    position: relative;
+    right: 15px;
+}
+label {
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    top: 40px;
+    left: 5px;
+}
+#timetoresiz {
+    position: absolute;
+    left: 95%;
+    top: 55px;
+}
+
+@media (max-width: 720px) {
+    #span {
+        visibility: visible;
+    }
+}
+
+
+
+.second-ul-element {
+    list-style: none;
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    margin-top: -20px;
+}
+@media (min-width: 720px) {
+    .second-ul-element {
+        width: 300px;
+    }
+}
+.second-li-element {
+    padding: 20px;
+}
+.second-anchor-element {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;  
+    transition: color 444ms linear;
+}
+.second-anchor-element:hover {
+    color: black;
+}
+#cancel {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+.secondFuckingDiv {
+    transform: translateX(-280%);
+    transition: transform 444ms linear;
+    margin-top: 0;
+}
+
+.transforming {
+    transform: translateX(0%);
+}
+
+
+
+
+
+
+
+.thisisthealivicandivpage {
+    background-image: url(images/Start\ Your\ Own\ Blog.jpg);
+    background-position: 100%;
+    background-size: cover;
+    margin-top: -420px;
+    height: 300px;
+}
+@media (min-width: 720px) {
+    .thisisthealivicandivpage {
+        height: 350px;
+    }
+}
+@media (max-width: 720px) {
+    .thisisthealivicandivpage {
+        height: 350px;
+    }
+}
+.thisistheparagraphimage {
+    text-align: center;
+}
+
+
+
+.displaying {
+    position: absolute;
+    left: 760px;
+    top: 100px;
+    visibility: hidden;
+}
+.spirit {
+    list-style: none;
+    background-color: purple;
+}
+.ghost {
+    padding: 10px;
+}
+.holy {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: -20px;
+}
+.holy:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 720px) {
+    .displaying {
+        transform: scale(0);
+    }
+}
+
+
+
+
+section {
+    margin: 10px;
+    padding: 10px;
+}
+
+@media (min-width: 1000px) {
+    section {
+        width: 650px;
+        position: relative;
+        left: 30%;
+    }
+    .main-figure .main-image-figure {
+        width: 500px;
+    }
+}
+
+
+@media (max-width: 720px) {
+    section {
+        margin-right: 0px;
+    }
+}
+
+
+
+
+
+
+.category {
+   margin-bottom: 30px;
+}
+.category-llist {
+    list-style: none;
+    
+}
+.category-achor-list {
+    text-decoration: none;
+    line-height: 2;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+@media (max-width: 720px) {
+    .category {
+        margin-left: 0;
+    }
+    .category-llist {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+
+.linking {
+    text-decoration: none;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.quora {
+    background-color: rgb(151, 0, 0);
+    color: white;
+}
+.linkedin {
+    background-color: blue;
+    color: white;
+}
+.pinterest {
+    color: white;
+    background-color: red;
+}
+.facebook12 {
+    color: white;
+    background-color: rgb(0, 118, 157);
+}
+.twitter12 {
+    background-color: rgb(92, 92, 255);
+    color: white;
+}
+.telegram {
+    color: white;
+    background-color: rgb(65, 65, 255);
+}
+@media (max-width: 720px) {
+    .linking {
+        display: grid;
+        grid-gap: 2em;
+        grid-template-columns: repeat(2, 250px);
+        text-align: center;
+        width: 250px;
+        position: relative;
+        left: 90px;
+        margin-bottom: 10px;
+    }
+}
+
+.blogger {
+    text-decoration: none;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: purple;
+    color: white;
+    transition: transform 1s;
+}
+.blogger:hover {
+    transform: scale(0.5);
+}
+
+@media (max-width: 720px) {
+    .blogger {
+        display: block;
+        width: 70px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+
+
+
+
+.helloladiesandgentlemenWelconeTo12Sow {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.alinkTObefollowingingThePage {
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    text-decoration-color: grey;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+.instagram {
+    width: 100px;
+}
+.twitter {
+    width: 45px;
+    margin-left: -10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.facebook {
+    width: 45px;
+    margin-left: 22px;
+    margin-top: 9px;
+    border-radius: 10px;
+}
+.footer {
+    text-align: center;
+    color: white;
+}
+.focus-1 {
+    color: purple;
+    text-decoration: none;
+}
+.focus-1:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.thisisthefooterelememtpage {
+    background-color: purple;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.istockphotos {
+   position: absolute;
+   left: 35%;
+   margin-top: 10px;
+   width: 200px;
+   border-radius: 50%;
+}
+.theparentlidting {
+    position: relative;
+    top: 55%;
+}
+
+@media (max-width: 520px) {
+    .thesubparentlisting a {
+        display: block;
+        margin-top: -50px;
+        margin-left: 10px;
+        padding: 15px;
+        position: relative;
+        top: -30px;
+    }
+    .heading-2 {
+        visibility: hidden;
+    }
+}
+@media (max-width: 720px) {
+    .thesubparentlisting a {
+        display: block;
+        margin-top: -40px;
+        margin-left: 10px;
+        padding: 15px;
+        position: relative;
+        top: -30px
+    }
+    .heading-2 {
+        visibility: hidden;
+    }
+}
+
+.theparentlidting, .thesubparentlisting a {
+    color: white;
+    text-decoration: none;
+}
+.theparentlidting, .thesubparentlisting {
+    display: inline;
+    padding: 5px;
+}
+.theparentlidting, .thesubparentlisting a {
+    color: white;
+    text-decoration: none;
+}
+.ifihavetoclassyou:hover {
+    text-decoration: underline;
+}
+.heading-2 .heading-2-anchor {
+    position: absolute;
+    margin-top: 200px;
+    font-size: 20px;
+    left: 30px;
+    border: 1px solid white;
+    background: linear-gradient(to right, purple, lightblue);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.thisisthelastdivofthispage {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: -15px;
+}
+.thisisalsothelastparapraph {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+    top: 20px;
+}
+.imagesource {
+    border-radius: 2px;
+}
+#imagesource1 {
+    width: 15px;
+    position: relative;
+    bottom: 8px;
+}
+.paragraph-text {
+    text-align: right;
+}
+.thanks {
+    text-align: center;
+}
+.imageparapgraph {
+    position: relative;
+    right: 35px;
+    bottom: 60px;
+    position: fixed;
+    background-color: purple;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+    <meta charset="UTF-8">
+
+    <link rel="shortcut icon" href="images/images.jpg">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Us</title>
+
+</head>
+<body id="bodying">
+    
+
+
+
+
+
+
+
+
+
+    <div id="timetoresiz">
+        <span id="span" onclick="openList()">&#9776;</span>
+      </div>
+    
+    
+      <div class="first-div">
+    
+        <nav class="first-navigation-bar">
+          <label>UP-T0-DATE Globally News</label>
+          <ul class="first-ul-element">
+            <li class="first-li-element"><a href="#!" class="first-anchor-element home">Home</a></li>
+            <li class="first-li-element"><a href="#!" class="first-anchor-element about">About</a></li>
+            <li class="first-li-element"><a href="#!" class="first-anchor-element contact">Contact</a></li>
+            <li class="first-li-element"><a href="#!" class="first-anchor-element categoryFirst" onclick="showCase()" ondblclick="closeCase()">Category</a></li>
+            <li class="first-li-element"><a href="#!" class="first-anchor-element terms&conditions">Terms & Conditions</a></li>
+            <li class="first-li-element"><a href="#!" class="first-anchor-element privacypolicy">Privacy Policy</a></li>
+            <li class="first-li-element"><a href="#!" class="first-anchor-element" id="blogs">Blogs</a></li>
+          </ul>
+         
+        </nav>
+       
+      </div>
+
+    
+      <div id="container">
+    
+        <div class="secondFuckingDiv" id="damn">
+          
+        <a href="#" id="cancel" onclick="closeList()">&times;</a>
+
+      <ul class="second-ul-element" id="listing">
+        
+        <li class="second-li-element"><a href="#" class="second-anchor-element">Home</a></li>
+        <li class="second-li-element"><a href="#" class="second-anchor-element">About</a></li>
+        <li class="second-li-element"><a href="#" class="second-anchor-element">Contact</a></li>
+        <li class="second-li-element"><a href="#" class="second-anchor-element">FAQ</a></li>
+        <li class="second-li-element"><a href="#" class="second-anchor-element">Terms & Conditions</a></li>
+        <li class="second-li-element"><a href="#" class="second-anchor-element">Privacy Policy</a></li>
+        <li class="second-li-element"><a href="#" class="second-anchor-element">Blogs</a></li>
+      
+      </ul>
+      
+      </div>
+      </div>
+
+
+
+
+      <div class="thisisthealivicandivpage">
+        <p class="thisistheparagraphimage"></p>
+    </div>
+
+
+
+    <div class="displaying" id="display">
+        <ul class="spirit">
+            <li class="ghost"><a href="celebrity.html" class="holy">Celebrity</a></li>
+            <li class="ghost"><a href="Technology.html" class="holy">Technology</a></li>
+            <li class="ghost"><a href="Health.html" class="holy">Health</a></li>
+            <li class="ghost"><a href="Crisis.html" class="holy">Crisis</a></li>
+            <li class="ghost"><a href="Global-News.html" class="holy">Global News</a></li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+<section>
+
+
+
+
+
+    <div class="parent-element">
+        <div class="child-element">
+            <h1 style="text-align: center;">About Us</h1>
+            <p>Hello user, if this is your first time on this website and you are confused on what to do.</p>
+            <p>It is recommended that you read our <a href="#" style="color: red;">FAQ</a> to know every details on this website</p>
+            <p>This website name is <b><a href="index.html" style="text-decoration: none; font-weight: bold; color: red;"> UP-TO-DATE GLOBALLY NEWS</a></b> website. And here we post all the latest news you need to know as a human and enable you to know what is going on around you. Incase of any questions you have based on this website or the blog, visit our contact page and send us an email <a href="#" style="color: red;">Contact us</a></p>
+            <p>This one of the best websites to get your blog posts and to keep updates of all of our activities, it is recommended that you follow us on all of our pages.</p>
+            <a class="linking quora" href="#">Quora</a>
+            <a class="linking linkedin" href="#">Linkedin</a>
+            <a class="linking pinterest" href="#">Pinterest</a>
+            <a class="linking facebook12" href="#">Facebook</a>
+            <a class="linking twitter12" href="#">Twitter</a>
+            <a class="linking telegram" href="#">Telegram Channel</a>
+            <p>Hope you are done following us. Okay now just relax and read any blog of your choice</p>
+            <nav>
+                <a class="blogger" href="#">Blog 1</a>
+                <a class="blogger" href="#">Blog 2</a>
+                <a class="blogger" href="#">Blog 3</a>
+                <a class="blogger" href="#">Blog 4</a>
+                <a class="blogger" href="#">Blog 5</a>
+            </nav>
+            <p>Guess what we categorised the blogs based on your suites</p>
+            
+    <div class="websiteChecking">
+        <h2 class="category">Category</h2>
+        <ul class="category-llist">
+            <li><a href="celebrity.html" class="category-achor-list">Celebrity</a></li>
+            <li><a href="Technology.html" class="category-achor-list">Technology</a></li>
+            <li><a href="Health.html" class="category-achor-list">Health</a></li>
+            <li><a href="Crisis.html" class="category-achor-list">Crisis</a></li>
+            <li><a href="Global-News.html" class="category-achor-list">Global News</a></li>
+        </ul>
+        </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+      
+<div class="helloladiesandgentlemenWelconeTo12Sow">
+    <p class="alinkTObefollowingingThePage">Follow For More Updates</p>
+    <p class="social-media">
+        <a href="https://m.instagram.com/?_rdr" target="_blank" rel="noopener noreferrer">
+        <img class="instagram social" src="images/0032.png" alt="No internet connection">
+        </a>
+    
+        <a href="https://m.twitter.com/?_rdr" target="_blank" rel="noopener noreferrer">
+            <img class="instagram twitter" src="images/0033.jpg" alt="Check your internet connection">
+        </a>
+    
+        <a href="https://web.facebook.com/profile.php?id=100085291013769" target="_blank" rel="noopener noreferrer">
+            <img class="instagram facebook" src="images/facebook-770688__480.webp" alt="Check your browser">
+        </a>
+    </p>
+    <footer class="footer">This is a @ <br><br> <a class="focus-1" href="index.html">WWW.HOMEMANAGEMENTCOM.CO.UK//.</a> 
+    </footer>
+    </div>
+
+
+
+
+    <div class="thisisthefooterelememtpage">
+
+        <img class="istockphotos" src="images/images.jpg" alt="istockphoto of Ailivican">
+
+        <ul class="theparentlidting">
+            <li class="thesubparentlisting"><a class="ifihavetoclassyou" href="index.html">Home</a></li>
+            <li class="thesubparentlisting"><a class="ifihavetoclassyou" href="privacy.html">Privacy Policy</a></li>
+            <li class="thesubparentlisting"><a class="ifihavetoclassyou" href="terms&condition.html">Terms & Condition</a></li>
+            <li class="thesubparentlisting"><a class="ifihavetoclassyou" href="#!">Contact Us</a></li>
+            <li class="thesubparentlisting"><a class="ifihavetoclassyou" href="About-us-index.html">About Us</a></li>
+            <li class="thesubparentlisting"><a class="ifihavetoclassyou" href="index.html">Blog</a></li>
+        </ul>
+
+            <h2 class="heading-2"><a class="heading-2-anchor" href="About-us-index.html">More about Ailivican</a></h2>
+    </div>
+
+
+    
+
+    <div class="thisisthelastdivofthispage">
+
+        <p class="thisisalsothelastparapraph">This is &copy; Ailivican 2022. All rights reserved.</p>
+        <p class="thanks">
+            Thanks for using our website !! <!--Thanks to all that helps us in everything about this company. We appreciate.-->
+            </p>
+
+        <div class="imageparapgraph"><p class="paragraph-text"><a href="#"><img src="images/arrow-156118__480.png" alt="arrow-156118__480.png" id="imagesource1"></a></p></div> 
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        var container = document.getElementById('container');
+        var span = document.getElementById('span');
+        var cancel = document.getElementById('cancel');
+        let listing = document.getElementById('listing')
+        let damn = document.getElementById('damn');
+        var childChild = document.getElementById('childChild');
+        let reClassing = document.getElementById('reClassing');
+        let damnImageClass = document.getElementById('damnImageClass');
+
+        let studies = document.getElementById('studies');
+
+         function openList() {
+          damn.classList.add('transforming');
+          childChild.style.visibility = 'hidden';
+          reClassing.style.visibility = 'hidden';
+          damnImageClass.style.visibility = 'hidden';
+          span.style.visibility = 'hidden';
+         }
+        
+         function closeList() {
+          damn.classList.remove('transforming');
+          childChild.style.visibility = 'visible';
+          reClassing.style.visibility = 'visible';
+          damnImageClass.style.visibility = 'visible';
+          span.style.visibility = 'visible';
+         }
+
+
+
+
+
+        let categoryFirst = document.getElementById('categoryFirst');
+
+         let display = document.getElementById('display');
+
+
+
+         function showCase() {
+            display.style.visibility = 'visible';
+         }
+         function closeCase() {
+            display.style.visibility = 'hidden';
+         }
+        
+
+    
+        
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

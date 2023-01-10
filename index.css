@@ -199,12 +199,14 @@ h2 a {
 
 .first-image {
     width: 400px;
+    border-radius: 3px;
 }
 
 .heading-1 {
     width: 300px;
     position: relative;
     left: 50px;
+    color: black;
     
 }
 .anhorElement {
@@ -261,26 +263,11 @@ marquee {
     margin-top: 15px;
     text-transform: uppercase;
 }
-.firstImageOfThisPage {
-    width: 100%;
-    position: relative;
-    top: 50px;
-    margin: 0;
-    padding: 0;
-}
-@media (min-width: 720px) {
-    .firstImageOfThisPage {
-        height: 350px;
-    }
-}
-@media (max-width: 720px) {
-    .firstImageOfThisPage {
-        height: 350px;
-    }
-}
+
+
 .firstHeading {
     position: absolute;
-    top: 100px;
+    top: 150px;
     color: white;
     font-weight: bold;
     text-shadow: 10px 10px 5px black;
@@ -288,27 +275,32 @@ marquee {
 .secondHeading {
     text-align: center;
     position: relative;
-    top: 50px;
+    top: 0px;
     text-transform: uppercase;
     text-shadow: 10px 10px 15px blue;
 }
 .firstParagraph {
-    position: absolute;
-    top: 150px;
     width: 500px;
+    position: relative;
+    top: -270px;
     font-weight: bold;
-    color: white;
+    overflow: hidden;
+    color: black;
     margin-left: 5px;
-    margin-top: 40px;
+    margin-top: 0px;
 } 
 @media (max-width: 720px) {
     .firstParagraph {
-        width: 220px;
+        width: 165px;
+        height: 125px;
+    }
+    .firstHeading {
+        width: 190px;
     }
 }
 #firstButton {
     position: absolute;
-    top: 380px;
+    top: 400px;
     right: 1200px;
     border: none;
     outline: 0;
@@ -322,6 +314,207 @@ marquee {
 @media (max-width: 720px) {
     #firstButton {
         position: absolute;
-        right: 250px;
+        right: 100px;
     }
 }
+@media (min-width: 720px) {
+    #firstButton {
+        visibility: hidden;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first-ul-element {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.first-li-element {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.first-anchor-element {
+    align-self: center;
+    position: relative;
+    top: -10px;
+    left: 200px;
+    text-decoration: none;
+    padding: 5px 30px 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 444ms;
+    
+
+}
+.first-anchor-element:hover {
+    background-color: lightgrey;
+    
+}
+.first-div {
+    background-color: purple;
+    margin-top: 0px;
+}
+@media (max-width: 720px) {
+    .first-anchor-element  {
+        padding: 0px;
+    }
+    .first-ul-element {
+       transform: translateX(-1000px);
+    }
+  
+
+}
+#span {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    right: 15px;
+}
+.spanner {
+    visibility: hidden;
+}
+label {
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    top: 40px;
+    left: 5px;
+}
+#timetoresiz {
+    position: absolute;
+    left: 95%;
+    top: 55px;
+}
+
+@media (max-width: 720px) {
+    #span {
+        visibility: visible;
+    }
+}
+
+
+
+.second-ul-element {
+    list-style: none;
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    margin-top: -20px;
+}
+@media (min-width: 720px) {
+    .second-ul-element {
+        width: 300px;
+    }
+}
+.second-li-element {
+    padding: 20px;
+}
+.second-anchor-element {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;  
+    transition: color 444ms linear;
+}
+.second-anchor-element:hover {
+    color: black;
+}
+#cancel {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+.secondFuckingDiv {
+    transform: translateX(-280%);
+    transition: transform 444ms linear;
+    margin-top: 0;
+}
+
+.transforming {
+    transform: translateX(0%);
+}
+
+
+.thisisthealivicandivpage {
+    background-image: url(images/Start\ Your\ Own\ Blog.jpg);
+    background-position: 100%;
+    background-size: cover;
+    margin-top: -420px;
+    height: 300px;
+}
+@media (min-width: 720px) {
+    .thisisthealivicandivpage {
+        height: 350px;
+    }
+}
+@media (max-width: 720px) {
+    .thisisthealivicandivpage {
+        height: 350px;
+    }
+}
+.thisistheparagraphimage {
+    text-align: center;
+}
+
+.websiteChecking {
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.thisisthealivicandivpage {
+    background-image: url(images/Start\ Your\ Own\ Blog.jpg);
+    background-position: 100%;
+    background-size: cover;
+    margin-top: -420px;
+    height: 300px;
+}
+@media (min-width: 720px) {
+    .thisisthealivicandivpage {
+        height: 350px;
+    }
+}
+@media (max-width: 720px) {
+    .thisisthealivicandivpage {
+        height: 350px;
+    }
+}
+
+

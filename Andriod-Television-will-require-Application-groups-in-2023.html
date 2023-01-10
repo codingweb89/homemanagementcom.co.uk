@@ -24,7 +24,7 @@
     align-self: center;
     position: relative;
     top: -10px;
-    left: 230px;
+    left: 200px;
     text-decoration: none;
     padding: 5px 30px 5px;
     color: white;
@@ -49,7 +49,6 @@
     .first-ul-element {
        transform: translateX(-1000px);
     }
-  
 
 }
 #span {
@@ -693,18 +692,34 @@ figure .figure-caption {
 }
 
 
+.displaying {
+    position: absolute;
+    left: 760px;
+    top: 100px;
+    visibility: hidden;
+}
+.spirit {
+    list-style: none;
+    background-color: purple;
+}
+.ghost {
+    padding: 10px;
+}
+.holy {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: -20px;
+}
+.holy:hover {
+    text-decoration: underline;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 720px) {
+    .displaying {
+        transform: scale(0);
+    }
+}
 
 
 
@@ -785,7 +800,7 @@ figure .figure-caption {
 
 <meta name="description" content="Android television will be less capacity eager later on. Google reported that Android's space-saving application document design, Android Application Packs (AABs), will at long last be the norm on Android television. By May 2023 — that is in a half year — Google will require all Android television applications to change to the new document design, which can eliminate application capacity necessities by 20%.">
 
-<meta name="keywords" content="Andriod, Television, Andriod television, Application groups, capacity for Andriod Television, Andriod Application">
+<meta name="keywords" content="android television, andriod tv, android tvs, what tv brands are android tvs, android tv interface, new android tv, andriod application, andriod groups">
 
 <link rel="shortcut icon" href="images/images.jpg">
 
@@ -810,21 +825,19 @@ figure .figure-caption {
         <nav class="first-navigation-bar">
           <label>UP-T0-DATE Globally News</label>
           <ul class="first-ul-element">
-            <li class="first-li-element"><a href="#!" class="first-anchor-element home">Home</a></li>
-            <li class="first-li-element"><a href="#!" class="first-anchor-element email">Email</a></li>
-            <li class="first-li-element"><a href="#!" class="first-anchor-element tools">Tools</a></li>
+            <li class="first-li-element"><a href="index.html" class="first-anchor-element home">Home</a></li>
             <li class="first-li-element"><a href="#!" class="first-anchor-element about">About</a></li>
+            <li class="first-li-element"><a href="#!" class="first-anchor-element contact">Contact</a></li>
+            <li class="first-li-element"><a href="#!" class="first-anchor-element categoryFirst" onclick="showCase()" ondblclick="closeCase()">Category</a></li>
             <li class="first-li-element"><a href="#!" class="first-anchor-element terms&conditions">Terms & Conditions</a></li>
             <li class="first-li-element"><a href="#!" class="first-anchor-element privacypolicy">Privacy Policy</a></li>
-            <li class="first-li-element"><a href="#!" class="first-anchor-element" id="blogs">Blogs</a></li>
+            <li class="first-li-element"><a href="index 2.html" class="first-anchor-element" id="blogs">Blogs</a></li>
           </ul>
          
         </nav>
        
       </div>
 
-
-  
     
       <div id="container">
     
@@ -835,9 +848,9 @@ figure .figure-caption {
       <ul class="second-ul-element" id="listing">
         
         <li class="second-li-element"><a href="#" class="second-anchor-element">Home</a></li>
-        <li class="second-li-element"><a href="#" class="second-anchor-element">Email</a></li>
-        <li class="second-li-element"><a href="#" class="second-anchor-element">Tools</a></li>
         <li class="second-li-element"><a href="#" class="second-anchor-element">About</a></li>
+        <li class="second-li-element"><a href="#" class="second-anchor-element">Contact</a></li>
+        <li class="second-li-element"><a href="#" class="second-anchor-element">FAQ</a></li>
         <li class="second-li-element"><a href="#" class="second-anchor-element">Terms & Conditions</a></li>
         <li class="second-li-element"><a href="#" class="second-anchor-element">Privacy Policy</a></li>
         <li class="second-li-element"><a href="#" class="second-anchor-element">Blogs</a></li>
@@ -856,13 +869,23 @@ figure .figure-caption {
 
 
 
+    <div class="displaying" id="display">
+        <ul class="spirit">
+            <li class="ghost"><a href="celebrity.html" class="holy">Celebrity</a></li>
+            <li class="ghost"><a href="Technology.html" class="holy">Technology</a></li>
+            <li class="ghost"><a href="Health.html" class="holy">Health</a></li>
+            <li class="ghost"><a href="Crisis.html" class="holy">Crisis</a></li>
+            <li class="ghost"><a href="Global-News.html" class="holy">Global News</a></li>
+        </ul>
+    </div>
+
 
 
 
     <div class="header-element">
         <div class="child-element-1" id="childChild">
             <div class="main-element" >
-                <a class="header-child-main" href="index.html">Homepage/</a><span class="header-child-main-span">Kim Kardashian gets her butt diminished</span>
+                <a class="header-child-main" href="index.html">Homepage/</a><span class="header-child-main-span">Android television will require Application Groups in 2023, ought to diminish application size by 20%</span>
             </div>
         </div>
     </div>
@@ -1200,7 +1223,7 @@ figure .figure-caption {
     
             
     <div class="helloladiesandgentlemenWelconeTo12Sow">
-        <p class="alinkTObefollowingingThePage">Follow on</p>
+        <p class="alinkTObefollowingingThePage">Follow For More Updates</p>
         <p class="social-media">
             <a href="https://m.instagram.com/?_rdr" target="_blank" rel="noopener noreferrer">
             <img class="instagram social" src="images/0032.png" alt="No internet connection">
@@ -1269,6 +1292,9 @@ figure .figure-caption {
         var childChild = document.getElementById('childChild');
         let reClassing = document.getElementById('reClassing');
         let damnImageClass = document.getElementById('damnImageClass');
+
+        let studies = document.getElementById('studies');
+
          function openList() {
           damn.classList.add('transforming');
           childChild.style.visibility = 'hidden';
@@ -1284,6 +1310,26 @@ figure .figure-caption {
           damnImageClass.style.visibility = 'visible';
           span.style.visibility = 'visible';
          }
+
+
+
+
+
+        let categoryFirst = document.getElementById('categoryFirst');
+
+         let display = document.getElementById('display');
+
+
+
+         function showCase() {
+            display.style.visibility = 'visible';
+         }
+         function closeCase() {
+            display.style.visibility = 'hidden';
+         }
+        
+
+    
         
         </script>
 
