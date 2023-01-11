@@ -292,10 +292,17 @@ marquee {
 @media (max-width: 720px) {
     .firstParagraph {
         width: 165px;
-        height: 125px;
+        height: 135px;
     }
     .firstHeading {
         width: 190px;
+        text-align: center;
+        position: absolute;
+        left: 300px;
+    }
+    .firstParagraph {
+        position: relative;
+        top: -300px;
     }
 }
 #firstButton {
