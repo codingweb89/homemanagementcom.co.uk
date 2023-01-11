@@ -303,7 +303,7 @@ marquee {
     }
     .firstParagraph {
         position: relative;
-        top: -300px;
+        top: -350px;
     }
 }
 #firstButton {
@@ -322,7 +322,7 @@ marquee {
 @media (max-width: 720px) {
     #firstButton {
         position: absolute;
-        right: 100px;
+        right: 70px;
     }
 }
 @media (min-width: 720px) {
